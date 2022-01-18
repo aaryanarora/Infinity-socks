@@ -171,7 +171,7 @@
     function whatsapp(){
         for (i = 0; i < alink.length; i++) {
             var x = imglink[i].getAttribute("src");
-            alink[i].setAttribute("href","http://wa.me/919810862573?text=https://aaryanarora.github.io/Infinity-socks/public/" + x);
+            alink[i].setAttribute("href","http://wa.me/919810862573?text=https://infinitycreations.herokuapp.com/" + x);
             
           } 
     }
