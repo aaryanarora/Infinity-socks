@@ -189,6 +189,7 @@
         productName.forEach(function(product) {
             const item = product.textContent;
             if (item.toLowerCase().indexOf(text) != -1) {
+                document.querySelector(".row").style.height = "auto";
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.position = "relative"
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.top = 0;
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.left = 0;
@@ -196,6 +197,7 @@
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.bottom = 0;
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
             } else {
+                document.querySelector(".row").style.height = "auto";
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.position = "relative"
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.top = 0;
                 product.parentElement.parentElement.parentElement.parentElement.parentElement.style.left = 0;
