@@ -4,6 +4,7 @@
 
     /*[ Load page ]
     ===========================================================*/
+    document.querySelector(".row").style.height = "auto";
     $(".animsition").animsition({
         inClass: 'fade-in',
         outClass: 'fade-out',
