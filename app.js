@@ -19,6 +19,10 @@ app.get("/scdetail",function(req,res){
 
     res.sendFile(__dirname + "/snowc-detail.html");
 })
+app.get("/snowbf",function(req,res){
+
+    res.sendFile(__dirname + "/snowbf.html");
+})
 
 
 app.listen(process.env.PORT || 3000,function(){
